@@ -1,0 +1,10 @@
+h1 { 
+/*propriedade: valor; */
+    color:red;
+}
+
+li {
+    /*deixar lado lado */
+list-style: none;
+    display: inline-block;
+}
