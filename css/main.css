@@ -1,3 +1,8 @@
+body {
+    background-color:#CDCDC1;
+   font-family: 'Rokkitt', serif;
+}
+
 h1 { 
 /*propriedade: valor; */
     color:red;
@@ -8,3 +13,45 @@ li {
 list-style: none;
     display: inline-block;
 }
+
+#cabecalho {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    
+    float: left;
+    width: 100%
+    
+    
+    
+    
+    
+}
+
+.logo {
+    
+
+}
+.menu {
+    float: left;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 15px;
+    
+}
+
+.form-pesquisa{
+    float: left;
+    
+
+}
+
+.menu-link { 
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 25px;
+
+}
+
+
+
