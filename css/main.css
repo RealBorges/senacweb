@@ -1,57 +1,74 @@
+/* GERAL */
 body {
-    background-color:#CDCDC1;
-   font-family: 'Rokkitt', serif;
+    /* Cor do Fundo  */
+    background-color: #eee;
+    
+    /* Alterar a Fonte dos textos da página */
+    font-family: 'Roboto', sans-serif;
 }
 
-h1 { 
-/*propriedade: valor; */
-    color:red;
-}
-
-li {
-    /*deixar lado lado */
-list-style: none;
-    display: inline-block;
-}
-
+/* CABECALHO */
 #cabecalho {
-    border: 1px solid #000;
-    border-radius: 5px;
-    padding: 10px;
-    
-    float: left;
-    width: 100%
-    
-    
-    
-    
-    
+    border: 1px solid #000; /* borda */
+    border-radius: 5px; /* Borda Arredondada */
+    padding: 10px;  /* espaco interno */
 }
 
 .logo {
-    
-
+    display: inline-block;
 }
+
 .menu {
-    float: left;
-    margin-left: 200px;
-    margin-right: 100px;
-    margin-top: 15px;
-    
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
-.form-pesquisa{
-    float: left;
-    
-
+.menu-link {
+    display: inline-block;
+    margin-right: 5px;
 }
 
-.menu-link { 
+.form-pesquisa {
     display: inline-block;
     margin-top: 15px;
-    font-size: 25px;
+}
 
+/* CONTEUDO */
+
+h1 {
+    color: red; /* cor do título principal  */
+}
+
+li {
+    /* Tirar os pontos */
+    list-style: none;
+    
+    /* Deixar um ao lado do outro  */
+    display: inline-block;
+}
+
+.centralizar {
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;    
+}
+
+.img-principal {
+    float: left;  /* flutuar para esquerda */
+}
+
+.img-list {
+    clear: left; /* "liberar" a flutuação da esquerda */
 }
 
 
+/* RODAPE */
+#rodape {
+    border-top: 1px solid #222;
+}
 
+#rodape p {
+    font-size: 12px;
+    text-align: center;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Review for Borges</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet"
+              href="css/main.css">
+
+        <link href='https://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+
+
+    </head>
+    <body>
+
+        <div class="centralizar">
+
+
+            <header id="cabecalho">
+
+                <a href="index.html" class="logo">
+                    <img src="img/logo2.png" alt="GAME POSER">
+
+                </a>
+
+
+                <nav  class="menu"> 
+                    <a class="menu-link" href="index.html">Home</a>
+                    <a class="lista-link"href='Lista.html'>Lista De Games</a>
+                    <a class="Sobre"href="Sobre.html">Sobre o Site</a>
+
+                </nav>
+
+
+                <form class="form-pesquisa">
+                    <input type="text" name="Pesquisa" />
+                    <button>Pesquisa</button>
+                </form>
+            </header>
+
+            <article class="conteudo">
+
+                <h1> Call Of Duty-Black OPS III <small>(2015)</small> </h1>
+                <h2>Tema: FPS - Ação - Tiro Primeira Pessoa</h2>
+
+                <figure class="lista-img">
+                    <img  class="ImgP" src="img/seg.jpg" alt="Imagem Principal">
+                    <figcaption>Call of Dut (2015)</figcaption>
+                </figure>    
+
+
+                <p class="descricao" >“Call of Duty®: Black Ops 3 é o primeiro título para os hardwares de nova geração da aclamada série Black Ops. Desenvolvido pela Treyarch, o criador premiado dos dois jogos mais jogados da história de Call of Duty. Call of Duty: Black Ops 3 levará os jogadores para um futuro sombrio, torcido, onde uma nova geração de soldados Black Ops surge e as linhas são borradas entre a nossa própria humanidade e a tecnologia que foi criada para ficar à frente, em um mundo onde militares e ponta robótica definem guerra. Com três modos de jogo exclusivos: Campanha, Multiplayer e Zombies, é oferecer aos fãs com a mais profunda e mais ambiciosa de Call of Duty da história.”
+
+                <div class="img-list">
+
+
+                    <h3>Imagens Adicionais</h3>
+                    <ul>    
+                        <li> <img class="ImgA" src="img/fist.jpg" alt="Imagem Secundaria"></li>        
+
+                        <li> <img class="ImgC" src="img/trey.jpg" alt="Treyarch"></li>
+
+
+                    </ul>
+
+                </div>
+            </article>
+            <footer id="rodape">
+                <p>
+                    &copy; CopyRight - "Review for Borges" - Todos os Direitos Reservados 
+                    <br />
+                    <a href="mailto:realborges@gmail.com">realborges@gmail.com</a>
+                </p>
+            </footer>
+
+            </html>
+    </body>
+</html>
