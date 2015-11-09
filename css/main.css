@@ -1,8 +1,8 @@
 /* GERAL */
 body {
     /* Cor do Fundo  */
-    background-color: #eee;
-    
+    background-image: url("http://i.stack.imgur.com/1Tzky.png");
+    background-size: cover;
     /* Alterar a Fonte dos textos da página */
     font-family: 'Roboto', sans-serif;
 }
@@ -20,8 +20,8 @@ body {
 
 .menu {
     display: inline-block;
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .menu-link {
@@ -37,10 +37,10 @@ body {
 /* CONTEUDO */
 
 h1 {
-    color: red; /* cor do título principal  */
+    color: black; /* cor do título principal  */
 }
 
-li {
+.li2 {
     /* Tirar os pontos */
     list-style: none;
     
@@ -48,7 +48,11 @@ li {
     display: inline-block;
 }
 
+ 
+
 .centralizar {
+    border-style: double;
+    border-color: black;
     margin-right: auto;
     margin-left: auto;
     width: 700px;    
@@ -72,3 +76,20 @@ li {
     font-size: 12px;
     text-align: center;
 }
+
+.fonte {
+    font-family: 'Wellfleet', cursive;
+    }
+.fonte2 {
+    font-family: 'Quantico', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
