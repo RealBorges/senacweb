@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title><?php echo $title; ?></title>
+
+
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/main.css">
+
+
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    </head>
+   
+
+
+    </head>
+<body>
+    <div class="centralizar">
+     <header id="cabecalho">                
+
+        <a href="layout.php" class="logo">
+            <img src="img/img1.jpg" alt="Logo IMDB" />    
+        </a>
+
+
+        <nav class="menu">
+            <a class="menu-link" href="index.html">Home</a>
+            <a class="menu-link" href="lista.html">Lista de Filmes</a>
+            <a class="menu-link" href="sobre.html">Sobre</a>
+        </nav>
+
+
+        <form class="form-pesquisa">
+            <input type="text" name="pesquisa" />
+            <button>Pesquisar</button>
+        </form>
+    </header>
+    
+        <?php include_once $page . '.php'; ?>
+    
+    <footer id="rodape">
+        <p>
+
+            &copy; CopyRight - "Borges" - Todos os Direitos Reservados 
+            <br />
+
+
+            <a href="mailto:falecom@tiago.link">borgesbox@gmail.com</a>
+        </p>
+    </footer>
+        </div>
+</body>
+</html>
